@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DSharpPlus" Version="5.0.0-nightly-01932" />
+		<PackageReference Include="DSharpPlus.Interactivity" Version="5.0.0-nightly-01932" />
+		<PackageReference Include="DSharpPlus.SlashCommands" Version="5.0.0-nightly-01932" />
+		<PackageReference Include="MongoDB.Bson" Version="2.23.1" />
+		<PackageReference Include="System.Linq.Async" Version="6.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\SLog\SLog.csproj" />
+	</ItemGroup>
+
+</Project>

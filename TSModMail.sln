@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TSModMail.Bot", "TSModMail.Bot\TSModMail.Bot.csproj", "{44A1C80E-1594-4D0A-8DF2-FBBF512C6AAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLog", "SLog\SLog.csproj", "{11418A70-A426-4FD1-B491-57F92DF30490}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TSModMail.Core", "TSModMail.Core\TSModMail.Core.csproj", "{E31A35EC-A509-49C8-8565-C801D35D6407}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TSModMail.Application", "TSModMail.Application\TSModMail.Application.csproj", "{FE6137E5-3828-4CED-92D2-5404316F336A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TSModMail.Repositories.MongoDb", "TSModMail.Repositories.MongoDb\TSModMail.Repositories.MongoDb.csproj", "{38D84772-7F1A-40CA-9B06-361F46F5FBEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{197CE0BE-8D98-4A6D-8B81-D416AA097D2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F5C2B733-8EFD-4E8D-A70F-BD41753D4294}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44A1C80E-1594-4D0A-8DF2-FBBF512C6AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A1C80E-1594-4D0A-8DF2-FBBF512C6AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A1C80E-1594-4D0A-8DF2-FBBF512C6AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A1C80E-1594-4D0A-8DF2-FBBF512C6AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11418A70-A426-4FD1-B491-57F92DF30490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11418A70-A426-4FD1-B491-57F92DF30490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11418A70-A426-4FD1-B491-57F92DF30490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11418A70-A426-4FD1-B491-57F92DF30490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31A35EC-A509-49C8-8565-C801D35D6407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31A35EC-A509-49C8-8565-C801D35D6407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31A35EC-A509-49C8-8565-C801D35D6407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31A35EC-A509-49C8-8565-C801D35D6407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6137E5-3828-4CED-92D2-5404316F336A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6137E5-3828-4CED-92D2-5404316F336A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6137E5-3828-4CED-92D2-5404316F336A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6137E5-3828-4CED-92D2-5404316F336A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D84772-7F1A-40CA-9B06-361F46F5FBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D84772-7F1A-40CA-9B06-361F46F5FBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D84772-7F1A-40CA-9B06-361F46F5FBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D84772-7F1A-40CA-9B06-361F46F5FBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD2A1F0A-3346-44F9-B2F3-B58F51D3D3D2}
+	EndGlobalSection
+EndGlobal
